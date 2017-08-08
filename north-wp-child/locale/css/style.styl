@@ -1,0 +1,120 @@
+@import 'svg'
+
+$size = 12px
+$height = $size + 5 + 5
+
+body.has-locale-bar
+  padding-top $height
+
+.locale-bar
+  position fixed
+  top 0
+  right 0
+  left 0
+  background #fff
+  text-transform uppercase
+  letter-spacing .1em
+  font bold $size/1 Quicksand
+  color #000
+  z-index 9999
+  padding 5px 0 5px 20px
+
+  .admin-bar &
+    top 32px
+
+    @media screen and (max-width: 782px)
+      top 46px
+
+  h1, a, a:hover
+    color inherit !important
+
+  h1
+    font inherit
+    margin 0
+    cursor pointer
+    padding 0 20px
+
+    &:after
+      content ''
+      border 0 solid #000
+      border-width 0 0 1px 1px
+      width 10px
+      height @width
+      display inline-block
+      transform rotate(-45deg)
+      margin -1em 0 0 1em
+      vertical-align .1em
+
+  .locale-list
+    float right
+    position relative
+
+  ul
+    min-width 100%
+    background #fff
+    padding 20px 20px 10px
+    position absolute
+    top 100%
+    right 0
+    display none
+    list-style none
+    margin 0
+
+    &:after
+      content ''
+      clear both
+      display table
+
+    li
+      margin-bottom 10px
+      white-space nowrap
+
+      a
+        &:before
+          font-size 19px
+          margin-right .5em
+          content ''
+          width 1em
+          height 1em
+          display inline-block
+          background-size contain
+          background-position center
+          background-repeat no-repeat
+          vertical-align bottom
+          border-radius 50%
+          border 1px solid rgba(#000, 0.5)
+          opacity 0.85
+
+        for c in (xx sv no fr fi)
+          &.site-{c}:before
+            background-svg c
+
+  .current
+    float left
+
+  @media screen and (max-width: 639px)
+    position absolute
+
+    .current
+      font-size 0
+      letter-spacing 0
+      span
+        font-size $size
+        letter-spacing .1em
+        float left
+
+  @media screen and (max-width: 439px)
+    .locale-list, .current span
+      letter-spacing 0
+
+.admin-style, .header.style1, .mfp.quick-search .mfp-content, .fr-window, .half_section, #mobile-menu, .thb-close
+  .has-locale-bar &
+    top $height
+
+  .admin-bar.has-locale-bar &
+    top 32px + $height
+
+    @media screen and (max-width: 782px)
+      top 46px + $height
+
+

@@ -1,0 +1,473 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Trofe\n"
+"POT-Creation-Date: 2017-05-31 13:43+0100\n"
+"PO-Revision-Date: 2017-05-31 13:44+0100\n"
+"Last-Translator: Reine Schellin <reine@wallmanderco.se>\n"
+"Language-Team: Wallmander & Co <reine@wallmanderco.se>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../functions.php:86
+msgid ""
+"Oh no, out of stock! Don't hesitate to contact customer service for "
+"information on when the product is back on track!"
+msgstr ""
+"Oh no, slut i lager!  Kontakta gärna kundtjänst så tar vi reda på när vi får "
+"in fler!"
+
+#: ../header.php:39 ../inc/woocommerce.php:219
+msgid "Close"
+msgstr ""
+
+#: ../inc/Aeryne_Academy.php:9
+msgid "Students"
+msgstr ""
+
+#: ../inc/Aeryne_Academy.php:9
+msgid "Student"
+msgstr ""
+
+#: ../inc/Aeryne_Academy.php:137
+msgid "Funded students"
+msgstr ""
+
+#. translators: 1: amount of income raised 2: goal target ammount
+#: ../inc/Aeryne_Academy.php:180
+#, php-format
+msgid "%1$s of %2$s raised"
+msgstr ""
+
+#: ../inc/register-types.php:25
+#, php-format
+msgid "Add %s"
+msgstr "Lägg till %s"
+
+#: ../inc/register-types.php:26 ../inc/register-types.php:102
+#, php-format
+msgid "Add New %s"
+msgstr "Lägg till ny %s"
+
+#: ../inc/register-types.php:27 ../inc/register-types.php:104
+#, php-format
+msgid "Edit %s"
+msgstr "Redigera %s"
+
+#: ../inc/register-types.php:28
+#, php-format
+msgid "New %s"
+msgstr "Ny %s"
+
+#: ../inc/register-types.php:29 ../inc/register-types.php:105
+#, php-format
+msgid "All %s"
+msgstr "Alla %s"
+
+#: ../inc/register-types.php:30 ../inc/register-types.php:106
+#, php-format
+msgid "View %s"
+msgstr "Visa %s"
+
+#: ../inc/register-types.php:31 ../inc/register-types.php:108
+#, php-format
+msgid "Search %s"
+msgstr "Sök %s"
+
+#: ../inc/register-types.php:32 ../inc/register-types.php:109
+#, php-format
+msgid "No %s found"
+msgstr "Inga %s hittades"
+
+#: ../inc/register-types.php:33
+#, php-format
+msgid "No %s found in Trash"
+msgstr "Inga %s hittades i papperskorgen"
+
+#: ../inc/register-types.php:34 ../inc/register-types.php:111
+#, php-format
+msgid "Parent %s:"
+msgstr "Förälder %s"
+
+#: ../inc/register-types.php:100 ../inc/register-types.php:101
+#: ../inc/register-types.php:112
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../inc/register-types.php:103
+#, php-format
+msgid "New %s Name"
+msgstr "Namn för ny %s"
+
+#: ../inc/register-types.php:107
+#, php-format
+msgid "Update %s"
+msgstr "Uppdatera %s"
+
+#: ../inc/register-types.php:110
+#, php-format
+msgid "Parent %s"
+msgstr "Förälder för %s"
+
+#: ../inc/register-types.php:113
+#, php-format
+msgid "Popular %s"
+msgstr "Populära %s"
+
+#: ../inc/register-types.php:114
+#, php-format
+msgid "Separate %s with commas"
+msgstr "Separera %s med kommatecken"
+
+#: ../inc/register-types.php:115
+#, php-format
+msgid "Add or remove %s"
+msgstr "Lägg till eller ta bort %s"
+
+#: ../inc/register-types.php:116
+#, php-format
+msgid "Choose from the most used %s"
+msgstr "Välj från de mest använda %s"
+
+#: ../inc/woocommerce.php:91 ../inc/woocommerce.php:347
+msgid "Just Arrived"
+msgstr ""
+
+#: ../inc/woocommerce.php:94
+msgid "Best Sellers"
+msgstr ""
+
+#: ../inc/woocommerce.php:97
+msgid "Featured"
+msgstr ""
+
+#: ../inc/woocommerce.php:220
+msgid "Your Cart"
+msgstr ""
+
+#: ../inc/woocommerce.php:240
+msgid "Remove this item"
+msgstr ""
+
+#: ../inc/woocommerce.php:257
+msgid "Subtotal"
+msgstr ""
+
+#: ../inc/woocommerce.php:260
+msgid "View Cart"
+msgstr ""
+
+#: ../inc/woocommerce.php:262
+msgid "Checkout2"
+msgstr ""
+
+#: ../inc/woocommerce.php:268
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: ../inc/woocommerce.php:271
+msgid "Return To Shop"
+msgstr ""
+
+#: ../inc/woocommerce.php:289 ../inc/woocommerce.php:293
+msgid "View your Cart"
+msgstr ""
+
+#: ../inc/woocommerce.php:293
+msgid "Cart"
+msgstr ""
+
+#: ../inc/woocommerce.php:305
+msgid "Wishlist"
+msgstr ""
+
+#: ../inc/woocommerce.php:315
+msgid "Out of Stock"
+msgstr ""
+
+#: ../inc/woocommerce.php:340
+msgid "Sale"
+msgstr ""
+
+#: ../inc/woocommerce.php:423
+msgid "Add To Wishlist"
+msgstr ""
+
+#: ../inc/woocommerce.php:427
+msgid "Added to Wishlist"
+msgstr ""
+
+#: ../inc/woocommerce.php:429
+msgid "View Wishlist"
+msgstr ""
+
+#: ../inc/woocommerce.php:444
+msgid "VIEW SIZING GUIDE"
+msgstr ""
+
+#~ msgid "Message"
+#~ msgstr "Meddelande"
+
+#~ msgid "Visiting address"
+#~ msgstr "Besöksadress"
+
+#~ msgid "Postal address"
+#~ msgstr "Postadress"
+
+#~ msgid "Switchboard"
+#~ msgstr "Växel"
+
+#~ msgid "Customer service"
+#~ msgstr "Kundservice"
+
+#~ msgid "Front page B2B"
+#~ msgstr "Startsida B2B"
+
+#~ msgid "Top Menu"
+#~ msgstr "Toppmeny"
+
+#~ msgid "Top Menu B2B"
+#~ msgstr "Toppmeny B2B"
+
+#~ msgid "Primary Menu"
+#~ msgstr "Huvudmeny"
+
+#~ msgid "Primary Menu B2B"
+#~ msgstr "Huvudmeny B2B"
+
+#~ msgid "Footer Menu"
+#~ msgstr "Footermeny"
+
+#~ msgid "Footer Menu 2"
+#~ msgstr "Footermeny 2"
+
+#~ msgid "Leading"
+#~ msgstr "Ingress"
+
+#~ msgid "Global Content"
+#~ msgstr "Globalt Innehåll"
+
+#~ msgid "Colors"
+#~ msgstr "Färger"
+
+#~ msgid "Attribute"
+#~ msgstr "Attribut"
+
+#~ msgid "Color %d"
+#~ msgstr "Färg %d"
+
+#~ msgid "%s phone"
+#~ msgstr "%s telefon"
+
+#~ msgid "Emphasis"
+#~ msgstr "Betoning"
+
+#~ msgid "Link Text"
+#~ msgstr "Länktext"
+
+#~ msgid "Link URL"
+#~ msgstr "Länk-URL"
+
+#~ msgid "Image"
+#~ msgstr "Bild"
+
+#~ msgid "Right Top"
+#~ msgstr "Höger Topp"
+
+#~ msgid "Right Box %d"
+#~ msgstr "Höger Box %d"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Bottom Left"
+#~ msgstr "Vänster Botten"
+
+#~ msgid "Bottom Right"
+#~ msgstr "Höger Botten"
+
+#~ msgid "Boxes"
+#~ msgstr "Boxar"
+
+#~ msgid "Additional Images"
+#~ msgstr "Ytterligare Bilder"
+
+#~ msgid "Content for B2B"
+#~ msgstr "Innehåll för B2B"
+
+#~ msgid "Add Row"
+#~ msgstr "Lägg Till Rad"
+
+#~ msgid "Read more"
+#~ msgstr "Läs mer"
+
+#~ msgid "(None)"
+#~ msgstr "(Ingen)"
+
+#~ msgid "%s is not numeric."
+#~ msgstr "%s är inte numerisk."
+
+#~ msgid "%s cannot be negative."
+#~ msgstr "%s kan inte vara negativ."
+
+#~ msgid "Pre-order available"
+#~ msgstr "Förorder tillgängligt"
+
+#~ msgid "More info"
+#~ msgstr "Mer info"
+
+#~ msgid "Find your closest reseller %s"
+#~ msgstr "Hitta närmaste återförsäljare %s"
+
+#~ msgid "here"
+#~ msgstr "här"
+
+#~ msgid "Show more"
+#~ msgstr "Visa fler"
+
+#~ msgid "Loading..."
+#~ msgstr "Laddar..."
+
+#~ msgid "Delivery date"
+#~ msgstr "Leveransdatum"
+
+#~ msgid "Done"
+#~ msgstr "Klar"
+
+#~ msgid "Prev"
+#~ msgstr "Föregående"
+
+#~ msgid "Next"
+#~ msgstr "Nästa"
+
+#~ msgid "Wk"
+#~ msgstr "V"
+
+#~ msgid "Popularity"
+#~ msgstr "Mest sålda"
+
+#~ msgid "Newness"
+#~ msgstr "Nyhet"
+
+#~ msgid "Price: low to high"
+#~ msgstr "Lägsta pris"
+
+#~ msgid "Price: high to low"
+#~ msgstr "Högsta pris"
+
+#~ msgid "Few in stock"
+#~ msgstr "Få kvar i lager"
+
+#~ msgid "%s (delivery %s)"
+#~ msgstr "%s (leverans %s)"
+
+#~ msgid "Previous"
+#~ msgstr "Föregående"
+
+#~ msgid "Place order"
+#~ msgstr "Slutför beställning"
+
+#~ msgid "Language"
+#~ msgstr "Språk"
+
+#~ msgid "RS Log Out"
+#~ msgstr "ÅF Log Out"
+
+#~ msgid "RS Log In"
+#~ msgstr "ÅF Log In"
+
+#~ msgid "Nothing found."
+#~ msgstr "Inget hittades."
+
+#~ msgid "Clear filters"
+#~ msgstr "Rensa filter"
+
+#~ msgid "Bulk Order"
+#~ msgstr "Orderblad"
+
+#~ msgid "Cup Size"
+#~ msgstr "Kupstorlek"
+
+#~ msgid "More than %d in stock"
+#~ msgstr "Fler än %d i lager"
+
+#~ msgid "%d or fewer in stock"
+#~ msgstr "%d eller färre i lager"
+
+#~ msgid "None in stock"
+#~ msgstr "Tyvärr slut i lager"
+
+#~ msgid "Search for:"
+#~ msgstr "Sök efter:"
+
+#~ msgid "Search for article number, name, etc"
+#~ msgstr "Sök på artikelnummer,  namn, mm"
+
+#~ msgid "Search results: %s"
+#~ msgstr "Sökresultat: %s"
+
+#~ msgid "Your search \"%s\" yielded %d results."
+#~ msgstr "Din sökning \"%s\" gav %d resultat."
+
+#~ msgid "You are on page %d out of %d."
+#~ msgstr "Du är på sida %d av %d."
+
+#~ msgid "Searching only for %s."
+#~ msgstr "Söker endast efter %s."
+
+#~ msgid "Search everything"
+#~ msgstr "Sök i allt"
+
+#~ msgid "Sort by:"
+#~ msgstr "Sortera efter:"
+
+#~ msgid "Hello %s%s%s!"
+#~ msgstr "Hej %s%s%s!"
+
+#~ msgid ""
+#~ "Welcome. You are now signed in to the Trofé web shop for resellers. From "
+#~ "your account dashboard you can view your %1$srecent orders%2$s and "
+#~ "%3$sedit your password and account details%2$s."
+#~ msgstr ""
+#~ "Välkommen. Du är nu inloggad i Trofés webshop för återförsäljare. Från "
+#~ "din kontopanel kan du se dina %1$ssenaste ordrar%2$s och %3$sändra ditt "
+#~ "lösenord och dina kontouppgifter%2$s."
+
+#~ msgid ""
+#~ "If you wish to change billing or delivery address contact customer "
+#~ "service over the phone at %s or e-mail at %s"
+#~ msgstr ""
+#~ "Om du vill ändra din fakturerings- eller leveransadress kontakta "
+#~ "kundservice på telefon %s eller mail %s"
+
+#~ msgid "Not %s? %sSign out%s"
+#~ msgstr "Inte %s? %sLogga ut%s"
+
+#~ msgid "Matching garments"
+#~ msgstr "Matchande plagg"
+
+#~ msgid "This goes nice with it!"
+#~ msgstr "Det här är fint till!"
+
+#~ msgid "Default"
+#~ msgstr "Standard"
+
+#~ msgid "Average rating"
+#~ msgstr "Högsta betyg"
+
+#~ msgid "No comments"
+#~ msgstr "Inga kommentarer"
+
+#~ msgid "One comment"
+#~ msgstr "En kommentar"
+
+#~ msgid "%d comments"
+#~ msgstr "%d kommentarer"

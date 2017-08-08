@@ -1,0 +1,42 @@
+json('../svg/svg.json')
+
+svg()
+  id = shift(arguments)
+  -svg(id, arguments)
+
+background-svg()
+  v = join('|', arguments)
+  id = shift(arguments)
+
+  +cache(v)
+    background-image -svg(id, arguments)
+
+-svg(id, r)
+  svg = lookup('SVGDefines-'+id)
+
+  if length(r) == 1
+    svg = s(svg, -svgcolor(r[0]))
+  if length(r) == 2
+    svg = s(svg, -svgcolor(r[0]), -svgcolor(r[1]))
+  if length(r) == 3
+    svg = s(svg, -svgcolor(r[0]), -svgcolor(r[1]), -svgcolor(r[2]))
+  if length(r) == 4
+    svg = s(svg, -svgcolor(r[0]), -svgcolor(r[1]), -svgcolor(r[2]), -svgcolor(r[3]))
+  if length(r) == 5
+    svg = s(svg, -svgcolor(r[0]), -svgcolor(r[1]), -svgcolor(r[2]), -svgcolor(r[3]), -svgcolor(r[4]))
+
+  f = "url('data:image/svg+xml,%s')";
+
+  return s(f, svg)
+
+-svgcolor(color)
+  if type(color) != 'rgba'
+    return color
+
+  string = ''+color
+
+  if !match('^#[0-9a-fA-F]+$', string)
+    return string
+
+  f = 'rgb(%s,%s,%s)'
+  return s(f, red(color), green(color), blue(color))
